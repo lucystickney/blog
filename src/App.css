@@ -1,11 +1,88 @@
-.App {
-  text-align: center;
+
+body {
+  
+  background-color: #d276a0;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-section {
+  height: 100vh;
+  background-image: url('../public/header-collage.png');
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
 }
+
+img.project-button-img {
+  height: 20vw;
+  width: auto;
+}
+.project-button {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.projects-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+ 
+  background-image: url('../public/scrapPaper.png');
+  padding-top: 30px;
+  flex-wrap: wrap;
+  z-index: 2;
+  background-position: top center;
+  
+  background-size: cover;
+  align-items: center;
+  
+}
+/*
+.projects-section img {
+  width: 100vw;
+  height: auto;
+}
+*/
+
+.main-logo {
+  max-width: 80%;
+  height: auto;
+}
+
+.project-logo {
+  max-width: 20%;
+}
+.project-name {
+  max-width: 30%;
+}
+
+.Nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.yarn-img {
+  max-width: 40%;
+  margin: auto;
+  display: flex;
+}
+
+.projects button, .main-logo button{
+  text-decoration: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  justify-content: end;
+  display: flex;
+  align-items: center;
+}
+  
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
